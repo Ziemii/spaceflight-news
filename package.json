@@ -1,0 +1,35 @@
+{
+  "name": "recruitment-task-frontend-intership",
+  "version": "1.0.0",
+  "description": "Łukasz Ziemacki",
+  "main": "src/index.js",
+  "scripts": {
+    "spaceflight": "parcel src/index.html",
+    "testspaceflight": "jest --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ziemii/recruitment-task-frontend-intership.git"
+  },
+  "author": "Łukasz Ziemacki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ziemii/recruitment-task-frontend-intership/issues"
+  },
+  "homepage": "https://github.com/Ziemii/recruitment-task-frontend-intership#readme",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
+    "jest-fetch-mock": "^3.0.3",
+    "jest-localstorage-mock": "^2.4.22",
+    "ts-jest": "^29.0.2",
+    "typescript": "^4.9.3"
+  }
+}

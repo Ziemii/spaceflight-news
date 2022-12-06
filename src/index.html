@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Spaceflight Articles</title>
+        <script src="./index.ts" type="module"></script>
+        <script src="https://kit.fontawesome.com/5c3581ff42.js" crossorigin="anonymous"></script>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <span class="title">Flight<i class="fa-solid fa-rocket"></i>rticles</span>
+            <span id="articles">Articles</span>
+            <span id="library">Library</span>
+        </div>
+        <div class="main">
+            <h4 id="counter"></h4>
+            <div class="limit-container">
+                Amount to fetch:
+                <input id="articles-per-page" type="number" min="1" step="1" value="15"></input>
+            </div>
+                <h2 id="current-location"></h2>
+                <div id="articles-container" class="articles-container"></div>
+            </div>
+        </div>
+    </body>
+</html>
